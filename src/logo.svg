@@ -1,0 +1,4 @@
+function logo (props){
+    const webPicture = <img src={file:///C:/Users/kounadist/Desktop/icons_assets/Logo%20.svg}/>
+    return webPicture
+}
