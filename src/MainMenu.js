@@ -1,4 +1,4 @@
-function Nav() {
+function MainMenu() {
     return (
       <ul>
     <li><a href="#home">Home</a></li>
