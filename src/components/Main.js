@@ -1,4 +1,4 @@
-function main(){
+function Main(){
     return(
         <main>
         <section>
@@ -6,12 +6,12 @@ function main(){
           <h2>Chicago</h2>
           <p>Lorem...</p>
           <button>Reserve a Table</button>
-          <img></img>
+          <img alt="reserve a table"></img>
         </section>
         <section>
           <h1>Specials</h1>
           <button>Online Menu</button>
-          <img></img>
+          <img ></img>
           <h3>Greek Salad</h3>
           <img></img>
           <h3>Bruchetta</h3>
@@ -35,3 +35,4 @@ function main(){
       </main>
     )
 }
+export default Main;

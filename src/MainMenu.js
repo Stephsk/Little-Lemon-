@@ -10,3 +10,4 @@ function MainMenu() {
           </ul>
     )
   }
+  export default MainMenu;

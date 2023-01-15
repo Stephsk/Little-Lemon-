@@ -1,4 +1,4 @@
-function footer(){
+function Footer(){
     return(
         <footer>
         <img></img>
@@ -32,3 +32,4 @@ function footer(){
       </footer>
     )
 }
+export default Footer;
