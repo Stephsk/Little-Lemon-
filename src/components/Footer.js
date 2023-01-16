@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-        <img></img>
+        <img alt="Little Lemon"></img>
         <h3>Doormat</h3>
         <nav>
           <ul>
