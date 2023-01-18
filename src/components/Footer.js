@@ -1,6 +1,6 @@
 function Footer(){
-    return(
-        <footer>
+    return (
+      <footer>
         <img alt="Little Lemon"></img>
         <h3>Doormat</h3>
         <nav>
@@ -32,4 +32,5 @@ function Footer(){
       </footer>
     )
 }
+    
 export default Footer;

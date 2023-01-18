@@ -3,8 +3,7 @@ import Nav from "./Nav";
 function Header() {
   return (
     <header>
-      <div className="main-grid"></div>
-      <img src={logo}></img>
+      <img src={logo} alt="logo"></img>
       <Nav />
     </header>
   )
