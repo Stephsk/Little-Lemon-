@@ -1,9 +1,11 @@
-import logo from "../assets/Logo.svg"
+
+import Logo from "./Logo";
 import Nav from "./Nav";
+
 function Header() {
   return (
-    <header>
-      <img src={logo}></img>
+    <header className="header">
+      <Logo/>
       <Nav />
     </header>
   )
