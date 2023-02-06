@@ -1,15 +1,16 @@
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Homepage from './Homepage.js';
 import BookingPage from './BookingPage.js';
 import AboutMe from './Chicago.js';
 import Menu from './Specials.js';
 import OrderOnline from './Specials.js'
-import Login from './Nav.js';
-import restaurantFood from "../assets/restauranfood.jpg"
-import CustomerSay from './CustomerSay.js'
-import Specials from './Specials.js';
+import Login from './Login.js';
+import { useState } from 'react';
+
+
 
 function Main() {
+  const [availableTimes, setAvailableTimes] = useState(["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"])
   return (
     <main className="main">
       <section className="section1">
@@ -17,27 +18,16 @@ function Main() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/booking" element={<BookingPage />}></Route>
+          <Route path="/booking" element={<BookingPage availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} />} />
           <Route path="/menu" element={<Menu />}></Route>
-          <Route path="/order-online" element={<OrderOnline />}></Route>
-          <Route path="/login" element={<Login />}></Route>
+          <Route path="/order-online" element={<OrderOnline />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
-        <h2 className="subtitle">Chicago</h2> 
-        <p className="p">Based in Chicago, Illinois, Little Lemon is a family owned Mediterranean restaurant...</p>
-       <BookingPage/>
-        <img style={{ width: 275, height: 442 }} src={restaurantFood} alt="Restaurant"></img>
-  
+
+
       </section>
 
-   <Specials/>
-      <CustomerSay />
-      <section>
-        <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
-        <p>Amet...</p>
-        <img alt="owners"></img>
-        <img alt="little lemon "></img>
-      </section>
+      
     </main>
   )
 }

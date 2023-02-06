@@ -5,7 +5,7 @@ function Specials(){
     <section className="specials">
         <h1>Specials</h1>
         
-        <section class="pictures"></section>
+        <section className="pictures"></section>
         <img alt="greek salad"></img>
         <h3>Greek Salad</h3>
         <img alt="bruchetta"></img>
