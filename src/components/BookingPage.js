@@ -1,6 +1,10 @@
-function BookingPage(){
+import BookingForm from "./BookingForm"
+
+function BookingPage({availableTimes,setAvailableTimes}) {
     return (
-        <button>Reserve a Table</button>
+
+        <BookingForm availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} />
+
     )
 }
 
