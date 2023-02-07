@@ -16,7 +16,7 @@ function Homepage() {
             <section>
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
-                <p>Amet...</p>
+                <p>Lorem...</p>
                 <img alt="owners"></img>
                 <img alt="little lemon "></img>
             </section>

@@ -9,8 +9,7 @@ function BookingForm({availableTimes, setAvailableTimes}) {
 
 
     function dateHandler(event) {
-        setDate(event.target.value)
-        console.log(date)
+        setAvailableTimes({payload:event.target.value})
 
     }
     function timeHandler(event) {
