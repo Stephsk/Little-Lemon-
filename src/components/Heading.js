@@ -1,19 +1,21 @@
 
 import restaurantFood from "../assets/restauranfood.jpg"
+import HeadingOne from "./headingOne"
+import HeadingTwo from "./headingTwo"
+import Paragraph from "./Paragraph"
+
 
 function Heading(){
     return (
-        <heading style={{
-        backgroundColor: #495E57;}}>
-        <h1 className="title">Little Lemon</h1>
-            <h2 className="subtitle">Chicago</h2>
-            <p>
-                We welcome you to check out our new restaurant. Our delicious recipes will make you wonder when we've been all this time!!!
-            </p>
-            <img style={{ width: 275, height: 442 }} src={restaurantFood} alt="Restaurant"></img>
-            <button>Reserve a Table</button>
+   <>
+        <heading className="heading">
+        <HeadingOne />
+            <HeadingTwo />
+           <img className="img" style={{width: 180, height: 250, align:"right",borderRadius: "5px", float:"right" }} src={restaurantFood} alt="Restaurant" ></img> 
+           <Paragraph />
+           <button style={{backgroundColor:"#F4CE14", width: 140, height: 50, borderRadius: "5px",border:"none",fontWeight:"bold"}}>Reserve a Table</button>
             </heading>
-            )
-    
+
+    </>)
 }
 export default Heading
