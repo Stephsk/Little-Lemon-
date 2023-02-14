@@ -1,15 +1,14 @@
 import FooterContent from "./FooterContent";
-import RestaurantPic from "./RestaurantPic";
+
 
 
 
 function Footer() {
     return (
-    <footer className="footer">
+      <div style={{margin:"100px"}}>
       <FooterContent />
-      <RestaurantPic />
-      
-    </footer>
+      </div>
+   
   )
 }
 export default Footer;

@@ -7,9 +7,11 @@ import Mario from "./Mario";
 function AboutBrothers() {
     return (
         <>
+        <div style={{margin:"100px"}}>
         <AboutLittleLemonRest />
         <Adrian />
         <Mario />
+        </div>
         </>
     )
 }

@@ -9,11 +9,12 @@ function Heading(){
     return (
    <>
         <heading className="heading">
-        <HeadingOne />
+        <HeadingOne /> 
+        <img className="img" style={{width: 200, height: 250, align:"right",borderRadius: "5px", float:"right", margin:"50px"}} src={restaurantFood} alt="Restaurant" ></img> 
             <HeadingTwo />
-           <img className="img" style={{width: 180, height: 250, align:"right",borderRadius: "5px", float:"right" }} src={restaurantFood} alt="Restaurant" ></img> 
+           
            <Paragraph />
-           <button style={{backgroundColor:"#F4CE14", width: 140, height: 50, borderRadius: "5px",border:"none",fontWeight:"bold"}}>Reserve a Table</button>
+           <button style={{backgroundColor:"#F4CE14", width: 120, height: 40, borderRadius: "5px",border:"none",fontWeight:"bold"}}>Reserve a Table</button>
             </heading>
 
     </>)
