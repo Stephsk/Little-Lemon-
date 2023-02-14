@@ -1,12 +1,22 @@
 function Testimonials(){
     return (
-        <div>
-        <h2>Testimonials</h2>
-        <h3>Rating</h3>
-        <h3>Rating</h3>
-        <h3>Rating</h3>
-        <h3>Rating</h3>
+        <section>
+        <h2 style={{margin:"100px"}}>Testimonials</h2>
+        <div class="rows">
+        <div class="columns">
+        <h3 style={{margin:"50px"}}>Rating</h3>
         </div>
+        <div class="columns">
+        <h3 style={{margin:"50px"}}>Rating</h3>
+        </div>
+        <div class="columns">
+        <h3 style={{margin:"50px"}}>Rating</h3>
+        </div>
+        <div class="columns">
+        <h3 style={{margin:"50px"}}>Rating</h3>
+        </div>
+        </div>
+        </section>
     )
 }
 

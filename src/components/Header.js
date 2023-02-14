@@ -2,11 +2,13 @@
 import Logo from "./Logo";
 import Nav from "./Nav";
 
+
 function Header() {
+
   return (
     <header className="header">
-      <Logo/>
-      <Nav />
+      <Logo/> <Nav />
+      
     </header>
   )
 }
